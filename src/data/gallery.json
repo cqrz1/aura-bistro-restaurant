@@ -1,0 +1,44 @@
+[
+  {
+    "id": "gal-1",
+    "title": "إعداد الشاورما على الحطب",
+    "category": "تحضير وطهي",
+    "image": "/images/shawarma_about.png",
+    "description": "طهي طبقات الدجاج واللحم على ألسنة جمر الحطب النقي"
+  },
+  {
+    "id": "gal-2",
+    "title": "لفافة أورا الكلاسيكية",
+    "category": "الأطباق المميزة",
+    "image": "/images/shawarma_classic.png",
+    "description": "خبز الصاج الذهبي المحمص بحشوة الشاورما والثومية"
+  },
+  {
+    "id": "gal-3",
+    "title": "طبق شاورما اللحم البلدي",
+    "category": "الأطباق المميزة",
+    "image": "/images/shawarma_beef.png",
+    "description": "لحم عجل بلدي متبل مع الطحينة والطماطم المشوية"
+  },
+  {
+    "id": "gal-4",
+    "title": "صندوق أورا العائلي",
+    "category": "المجموعات",
+    "image": "/images/shawarma_platter.png",
+    "description": "تشكيلة لفائف ميني صاج مع تشكيلة الصوصات الخاصة"
+  },
+  {
+    "id": "gal-5",
+    "title": "وجبة التوفير الخاصة",
+    "category": "العروض",
+    "image": "/images/shawarma_offer.png",
+    "description": "ساندويتش صاج كبير مع البطاطس المتبلة والمشروب المنعش"
+  },
+  {
+    "id": "gal-6",
+    "title": "شاورما الدجاج الحارة",
+    "category": "الأطباق المميزة",
+    "image": "/images/shawarma_hero.png",
+    "description": "شاورما مشوية مع ثومية الفلفل الأحمر الحار والهالبينو"
+  }
+]

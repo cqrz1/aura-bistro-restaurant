@@ -1,11 +1,10 @@
 "use client";
 
-import React from "react";
-import restaurantData from "@/data/restaurant.json";
 import { MessageCircle } from "lucide-react";
+import restaurantData from "@/data/restaurant.json";
 
 export default function WhatsAppButton() {
-  const whatsappUrl = `https://wa.me/${restaurantData.contact.whatsappNumber.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/${restaurantData.contact.whatsappNumber}?text=${encodeURIComponent(
     restaurantData.contact.whatsappDefaultText
   )}`;
 
@@ -14,14 +13,16 @@ export default function WhatsAppButton() {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="تواصل معنا عبر واتساب"
-      className="fixed bottom-6 left-6 z-40 group flex items-center gap-3 bg-emerald-600 hover:bg-emerald-500 text-white p-3.5 sm:px-5 sm:py-3.5 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-emerald-400"
+      aria-label="تواصل عبر الواتساب"
+      className="fixed bottom-6 left-6 z-40 group flex items-center gap-3 p-3.5 rounded-full bg-emerald-500 text-white shadow-xl shadow-emerald-500/30 hover:bg-emerald-600 hover:scale-105 transition-all duration-300"
     >
-      <span className="absolute -inset-1 rounded-full bg-emerald-500/40 animate-ping group-hover:animate-none opacity-75 -z-10" />
-
-      <MessageCircle className="w-6 h-6 fill-white stroke-emerald-600" />
-      <span className="hidden sm:inline text-sm font-bold tracking-wide">
-        تحدث معنا عبر واتساب
+      <span className="relative flex h-6 w-6 items-center justify-center">
+        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75" />
+        <MessageCircle className="w-6 h-6 relative z-10 fill-white text-emerald-500" />
+      </span>
+      
+      <span className="max-w-0 overflow-hidden whitespace-nowrap text-xs font-bold transition-all duration-300 group-hover:max-w-xs pl-1">
+        تحدث مع المطعم
       </span>
     </a>
   );

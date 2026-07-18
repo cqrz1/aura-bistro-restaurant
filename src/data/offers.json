@@ -1,0 +1,41 @@
+[
+  {
+    "id": "offer-1",
+    "badge": "عرض الغداء المميز",
+    "title": "كومبو شاورما دجاج التوفير",
+    "subtitle": "ساندويتش دجاج صاج كبير + بطاطس متبلة + مشروب غازي أو عصير منعش",
+    "originalPrice": 36,
+    "discountPrice": 27,
+    "currency": "ر.س",
+    "discountPercentage": "25% خصم",
+    "image": "/images/shawarma_offer.png",
+    "validUntil": "يومياً من ١٢:٠٠ ظهراً حتى ٥:٠٠ مساءً",
+    "tag": "الأكثر مبيعاً"
+  },
+  {
+    "id": "offer-2",
+    "badge": "عرض العائلة والشباب",
+    "title": "صندوق أورا جولد بكس",
+    "subtitle": "8 لفائف شاورما متنوعة + طبق بطاطس عائلي + 3 تشكيلات صلصات + 2 عصير ليمون بالنعناع",
+    "originalPrice": 165,
+    "discountPrice": 129,
+    "currency": "ر.س",
+    "discountPercentage": "وفر 36 ر.س",
+    "image": "/images/shawarma_platter.png",
+    "validUntil": "عرض ممتد لنهاية الأسبوع",
+    "tag": "توفير عائلي"
+  },
+  {
+    "id": "offer-3",
+    "badge": "عرض التذوق الحرفي",
+    "title": "طبق شاورما ثنائي (دجاج + لحم بلدي)",
+    "subtitle": "طبق مشكل شاورما على الحطب مع خبز الصاج الطازج والطحينة بالدبس والثومية الملكية",
+    "originalPrice": 65,
+    "discountPrice": 49,
+    "currency": "ر.س",
+    "discountPercentage": "25% خصم",
+    "image": "/images/shawarma_beef.png",
+    "validUntil": "متاح للطلبات المباشرة",
+    "tag": "جديد أورا"
+  }
+]
